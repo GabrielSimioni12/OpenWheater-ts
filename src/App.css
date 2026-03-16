@@ -9,7 +9,7 @@ body {
 }
 
 /* Temas Dinâmicos */
-.app-container.Clear { background: linear-gradient(135deg, #fcebb1 0%, #f1bb81 100%); }
+.app-container.Clear { background: linear-gradient(135deg, #fcebb1 0%, #f19634 100%); }
 .app-container.Clouds { background: linear-gradient(135deg, #bdc3c7 0%, #2c3e50 100%); }
 .app-container.Rain { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
 .app-container.Thunderstorm { background: linear-gradient(135deg, #485563 0%, #29323c 100%); }
@@ -75,13 +75,13 @@ body {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Mantém duas colunas */
+  grid-template-columns: 1fr 1fr; 
   gap: 12px;
   margin-top: 25px;
 }
 
 .glass-card {
-  /* Aumente um pouco o max-width para acomodar as novas infos */
+
   max-width: 450px; 
   transition: all 0.5s ease;
 }
@@ -89,7 +89,7 @@ body {
 .stat {
   background: rgba(255, 255, 255, 0.15);
   padding: 12px;
-  /* ... resto do código ... */
+  
 }
 
 .val { font-weight: bold; }
